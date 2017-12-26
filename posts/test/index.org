@@ -10,13 +10,4 @@
 #+END_COMMENT
 
 
-Write your post here.
-
-[[http://www.google.com][Google]]
-
-[[img-url:/images/two_cells_CMY1.jpg]]
-
-
-| Table | Test     |
-|-------+----------|
-| *1*   | /Italic/ |
+Foobar
