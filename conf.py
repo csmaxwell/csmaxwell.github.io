@@ -18,7 +18,7 @@ import time
 
 # Data about this site
 BLOG_AUTHOR = "Colin S. Maxwell"  # (translatable)
-BLOG_TITLE = "Colin Maxwell - Biologist"  # (translatable)
+BLOG_TITLE = "\u2302"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
 SITE_URL = "https://csmaxwell.github.io/"
@@ -26,7 +26,7 @@ SITE_URL = "https://csmaxwell.github.io/"
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://csmaxwell.github.io/"
 BLOG_EMAIL = "cs.maxwell [at] google's mail"
-BLOG_DESCRIPTION = "Personal site for Colin Maxwell"  # (translatable)
+BLOG_DESCRIPTION = "Colin Maxwell's academic site"  # (translatable)
 
 # Nikola is multilingual!
 #
@@ -134,11 +134,16 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
+        ("/about/", "About"),
+        ("/publications/", "Publications"),
+        ("/resources/", "Code and Data"),
+        ("/blog/", "Blog"),
         ("/archive.html", "Archive"),
         ("/categories/", "Tags"),
         ("/rss.xml", "RSS feed"),
     ),
 }
+
 
 # Name of the theme to use.
 THEME = "bootstrap3"
@@ -181,19 +186,24 @@ THEME_COLOR = '#5670d4'
 #         ("pages/*.md", {"en": "pages", "de": "seiten"}, "page.tmpl"),
 #     )
 
+INDEX_PATH = "blog"
+
+
 POSTS = (
-    ("posts/*.rst", "posts", "post.tmpl"),
-    ("posts/*.md", "posts", "post.tmpl"),
-    ("posts/*.txt", "posts", "post.tmpl"),
-    ("posts/*.html", "posts", "post.tmpl"),
-)
-PAGES = (
-    ("pages/*.rst", "pages", "page.tmpl"),
-    ("pages/*.md", "pages", "page.tmpl"),
-    ("pages/*.txt", "pages", "page.tmpl"),
-    ("pages/*.html", "pages", "page.tmpl"),
+    ("posts/*.rst", "blog", "post.tmpl"),
+    ("posts/*.md", "blog", "post.tmpl"),
+    ("posts/*.txt", "blog", "post.tmpl"),
+    ("posts/*.html", "blog", "post.tmpl"),
+    ("posts/*.org", "blog", "post.tmpl"),
 )
 
+PAGES = (
+    ("pages/*.rst", "", "story.tmpl"),
+    ("pages/*.md", "", "story.tmpl"),
+    ("pages/*.txt", "", "story.tmpl"),
+    ("pages/*.html", "", "story.tmpl"),
+    ("pages/*.org", "", "story.tmpl"),
+)
 
 # Below this point, everything is optional
 
@@ -941,7 +951,9 @@ LICENSE = ""
 
 # A small copyright notice for the page footer (in HTML).
 # (translatable)
-CONTENT_FOOTER = 'Contents &copy; {date}         <a href="mailto:{email}">{author}</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         {license}'
+CONTENT_FOOTER = """Contents &copy; {date} <a href="mailto:{email}">{author}</a> - 
+Powered by <a href="http://getnikola.com">Nikola</a><br>
+{license}"""
 
 # Things that will be passed to CONTENT_FOOTER.format().  This is done
 # for translatability, as dicts are not formattable.  Nikola will
@@ -1370,6 +1382,3 @@ GLOBAL_CONTEXT_FILLER = []
 # Add the orgmode compiler to your COMPILERS dict.
 COMPILERS["orgmode"] = ('.org',)
 
-# Add org files to your POSTS, PAGES
-POSTS = POSTS + (("posts/*.org", "posts", "post.tmpl"),)
-PAGES = PAGES + (("stories/*.rst", "stories", "story.tmpl"),)

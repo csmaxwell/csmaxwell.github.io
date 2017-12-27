@@ -1,0 +1,17 @@
+#+BEGIN_COMMENT
+.. title: Code and Data
+.. slug: resources
+.. date: 2017-12-26 21:25:29 UTC-05:00
+.. tags: 
+.. category: 
+.. link: 
+.. description: 
+.. type: text
+#+END_COMMENT
+
+
+* 
+
+** 
+
+Code 1
