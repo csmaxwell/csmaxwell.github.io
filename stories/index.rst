@@ -1,13 +1,9 @@
-#+BEGIN_COMMENT
-.. title: Fake site
+.. title: Welcome To The Fake Site
 .. slug: index
-.. date: 2017-12-26 17:59:10 UTC-05:00
-.. tags: 
-.. category: 
-.. link: 
+.. date: 1970-01-01 00:00:00 UTC
+.. tags:
+.. link:
 .. description: Fake Site version 1, welcome page!
-.. type: text
-#+END_COMMENT
 
 
 .. class:: jumbotron col-md-6
