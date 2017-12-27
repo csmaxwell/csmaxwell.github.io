@@ -7,15 +7,27 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://csmaxwell.github.io/</loc>
-  <lastmod>2017-12-26T23:01:00Z</lastmod>
+  <lastmod>2017-12-27T03:08:00Z</lastmod>
  </url>
  <url>
   <loc>https://csmaxwell.github.io/2017/</loc>
   <lastmod>2017-12-26T22:49:00Z</lastmod>
  </url>
  <url>
+  <loc>https://csmaxwell.github.io/about/</loc>
+  <lastmod>2017-12-27T02:30:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://csmaxwell.github.io/archive.html</loc>
-  <lastmod>2017-12-26T22:49:00Z</lastmod>
+  <lastmod>2017-12-27T03:15:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://csmaxwell.github.io/blog/</loc>
+  <lastmod>2017-12-27T02:40:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://csmaxwell.github.io/blog/testing/</loc>
+  <lastmod>2017-12-27T02:14:00Z</lastmod>
  </url>
  <url>
   <loc>https://csmaxwell.github.io/categories/</loc>
@@ -30,11 +42,47 @@
   <lastmod>2017-12-26T22:23:00Z</lastmod>
  </url>
  <url>
+  <loc>https://csmaxwell.github.io/papers/Maxwell%3A2012ii.html</loc>
+  <lastmod>2017-12-27T03:19:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://csmaxwell.github.io/papers/a2015.html</loc>
+  <lastmod>2017-12-27T03:08:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://csmaxwell.github.io/papers/b2010.html</loc>
+  <lastmod>2017-12-27T03:08:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://csmaxwell.github.io/papers/p2015.html</loc>
+  <lastmod>2017-12-27T03:08:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://csmaxwell.github.io/posts/index2/</loc>
+  <lastmod>2017-12-27T00:41:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://csmaxwell.github.io/posts/restructuredtext-demo/</loc>
+  <lastmod>2017-12-27T00:46:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://csmaxwell.github.io/posts/test/</loc>
   <lastmod>2017-12-26T22:49:00Z</lastmod>
  </url>
  <url>
+  <loc>https://csmaxwell.github.io/publications/</loc>
+  <lastmod>2017-12-27T03:06:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://csmaxwell.github.io/resources/</loc>
+  <lastmod>2017-12-27T02:49:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://csmaxwell.github.io/stories/</loc>
   <lastmod>2017-12-27T00:04:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://csmaxwell.github.io/test/</loc>
+  <lastmod>2017-12-27T02:47:00Z</lastmod>
  </url>
 </urlset>
