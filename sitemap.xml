@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://csmaxwell.github.io/</loc>
-  <lastmod>2017-12-28T02:13:00Z</lastmod>
+  <lastmod>2017-12-28T02:14:00Z</lastmod>
  </url>
  <url>
   <loc>https://csmaxwell.github.io/2017/</loc>
@@ -40,10 +40,6 @@
  <url>
   <loc>https://csmaxwell.github.io/listings/</loc>
   <lastmod>2017-12-26T22:23:00Z</lastmod>
- </url>
- <url>
-  <loc>https://csmaxwell.github.io/papers/Maxwell2011.html</loc>
-  <lastmod>2017-12-28T02:13:00Z</lastmod>
  </url>
  <url>
   <loc>https://csmaxwell.github.io/publications/</loc>
