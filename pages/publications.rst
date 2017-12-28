@@ -12,6 +12,6 @@ Publications
 
 .. publication_list:: my-publications.bib
    :style: unsrt
-   :highlight_author: Colin S. Maxwell
-   :detail_page_dir: papers
+   :highlight_author: Colin S Maxwell
+   :detail_page_dir:
    :bibtex_dir: bibtex
